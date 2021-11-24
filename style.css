@@ -1,3 +1,9 @@
+@import url('./catsalphabet/CatsAlphabet.ttf');
+@font-face {
+  font-family: Cats;
+  src: url('./catsalphabet/CatsAlphabet.ttf');
+}
+
 /*Reset CSS*/
 * {
   margin: 0;
@@ -26,14 +32,15 @@ body {
 }
 
 #container > #button button {
-  width: 300px;
+  width: 350px;
   height: 100px;
   background: #bc4363;
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 500;
   border-radius: 15px;
   color: #e6e6e6;
   border: none;
+  font-family: Cats;
 }
 
 #container > #photo {
