@@ -1,0 +1,42 @@
+/*Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  background: #bc4363;
+  display: flex;
+}
+
+#container > #button {
+  width: 50%;
+  height: 100%;
+  background: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container > #button button {
+  width: 300px;
+  height: 100px;
+  background: #bc4363;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 15px;
+  color: #e6e6e6;
+  border: none;
+}
+
+#container > #photo {
+  width: 50%;
+  height: 100%;
+}
